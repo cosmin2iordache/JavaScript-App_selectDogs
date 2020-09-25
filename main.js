@@ -29,9 +29,5 @@ async function loadByBreed (x) {
 }
 
 function createSlideShow (x) {
-      document.getElementById("slideShow").innerHTML = `
-      <div class="slide" style="background-image: url('${x[0]}')"></div>
-      `
-
-
+      document.getElementById("slideShow").innerHTML = `<div class="slide" style="background-image: url('${x[0]}')"></div>`
 }
